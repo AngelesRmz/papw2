@@ -1,0 +1,109 @@
+body{
+	min-height: 100vh;
+	background: linear-gradient(-135deg, #ccabd8, #6ec6ca);
+}
+
+.middle{
+max-width: 30rem !important;
+}
+
+.vertical-middle{
+	top: 1rem !important;
+}
+
+.card{
+	margin-bottom: 3rem;
+}
+
+input{
+	font-family: sans-serif;
+}
+
+input[type=text],input[type=password], input[type=email], select, textarea {
+	outline: none;
+	appearance: unset !important;
+	-moz-appearance: unset !important;
+	-webkit-appearance: unset !important;
+	-o-appearance: unset !important;
+	-ms-appearance: unset !important; 
+}
+
+input[type=text]::-webkit-outer-spin-button, input[type=text]::-webkit-inner-spin-button {
+	appearance: none !important;
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	-o-appearance: none !important;
+	-ms-appearance: none !important;
+	margin: 0; }
+  
+input[type=text]:focus,input[type=password], input[type=email], select:focus, textarea:focus {
+	outline: none;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	-ms-box-shadow: none !important; }
+
+
+input[type=text],input[type=password], input[type=email]{
+	width: 90%;
+	/* display: block; */
+	border: none;
+	border-bottom: 1px solid #999;
+	padding: 6px 30px;
+	font-family: Poppins;
+	box-sizing: border-box; }
+	input::-webkit-input-placeholder {
+	  color: #999; }
+	input::-moz-placeholder {
+	  color: #999; }
+	input:-ms-input-placeholder {
+	  color: #999; }
+	input:-moz-placeholder {
+	  color: #999; }
+	input:focus {
+	  border-bottom: 1px solid #222; }
+	  input:focus::-webkit-input-placeholder {
+		color: #222; }
+	  input:focus::-moz-placeholder {
+		color: #222; }
+	  input:focus:-ms-input-placeholder {
+		color: #222; }
+	  input:focus:-moz-placeholder {
+		color: #222; }
+
+		
+label {
+padding-right: 5px !important;
+}
+
+input[type=submit]{
+	width: 100% !important;
+	background-color: #08979d;
+}
+
+input[type=submit]:hover{
+	background-color: #055b5c;
+}
+
+a{
+	color:#1ab5b8;
+}
+
+.image-reg{
+	max-width: 20rem;
+	margin: auto auto;
+}
+
+.card-login{
+	top: 8rem !important;
+}
+
+ .card h2{
+	 color: #1ab5b8;
+ }
+
+ span.help-block{
+	 color: red;
+ }
+/* ///////////////////////////// */

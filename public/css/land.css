@@ -1,0 +1,40 @@
+html,
+body,
+header,
+.view,
+.rgba-gradient {
+  height: 100%;
+}
+
+.btn-white {
+  color: black !important;
+}
+
+#contenedor{
+  padding-top: 10rem;
+}
+
+
+.texto1{
+  color: white !important;
+}
+
+.botones{
+  border-radius: 8px !important;
+  background-color: #075b5c !important;
+}
+
+.boton-opaco{
+  background-color: rgba(7, 91, 92, 0.5) !important;
+}
+
+.avatar-img{
+  width: 50px !important;
+}
+/* .rgba-gradient {
+    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  } */
